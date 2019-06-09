@@ -1,4 +1,4 @@
-# ListinSite
+# MEAN-AUTH-ROLE-ANGULAR
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.1.
 
