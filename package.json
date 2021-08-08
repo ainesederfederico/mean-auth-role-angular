@@ -1,9 +1,10 @@
 {
-  "name": "listin-site",
+  "name": "mean",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
     "start": "concurrently -c \"yellow.bold,green.bold\" -n \"BACKEND,FRONTEND\" \"nodemon backend\" \"ng serve --open\"",
+    "start-fe":"ng serve --open",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
