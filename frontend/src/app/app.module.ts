@@ -6,7 +6,7 @@ import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { AppComponent } from './app.component';
 import { routing } from './app-routing.module';
 
-import { JwtInterceptor, ErrorInterceptor } from './helpers/';
+import { JwtInterceptor, ErrorInterceptor } from './helpers';
 import { HomeComponent } from './home/home.component';
 import { AdminComponent } from './admin/admin.component';
 import { LoginComponent } from './login/login.component';

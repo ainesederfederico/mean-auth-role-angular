@@ -1,0 +1,27 @@
+version: '3'
+services:
+  frontend:
+    build: ./frontend
+    ports:
+      - '8080:80'
+    depends_on:
+      - api
+    restart: always
+  api:
+    restart: always
+    build: ./backend
+    ports:
+      - 4000:4000
+    depends_on:
+      - mongo
+    volumes:
+      - ./:/code
+  mongo:
+    image: mongo
+    ports:
+      - 27017:27017
+    volumes:
+      - mongodb:/data/db
+
+volumes:
+  mongodb:
