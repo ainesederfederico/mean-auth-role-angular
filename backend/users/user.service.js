@@ -8,7 +8,8 @@ const User = db.User;
 module.exports = {
     authenticate,
     getAll,
-    getById
+    getById,
+    create
 };
 
 async function authenticate({ username, password }) {

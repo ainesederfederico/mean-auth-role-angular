@@ -1,0 +1,22 @@
+[
+  {
+    "_id": { "$oid": "611172f5ec2d64001fed9a67" },
+    "username": "user",
+    "firstName": "userName",
+    "lastName": "userLastName",
+    "role": "User",
+    "createdDate": { "$date": "2021-08-09T18:24:53.933Z" },
+    "hash": "$2a$10$0dzzAXkLEJogCGXL5LNUa.sBAL5zxVhqkL3R.5qnmQt6psjihDMtC",
+    "__v": 0
+  },
+  {
+    "_id": { "$oid": "61117501ec2d64001fed9a68" },
+    "username": "admin",
+    "firstName": "adminName",
+    "lastName": "adminLastName",
+    "role": "Admin",
+    "createdDate": { "$date": "2021-08-09T18:33:37.932Z" },
+    "hash": "$2a$10$j.ndrxqnDpWYeP1fH7jLku9Mgz7/TpxKzAAxViJncugsQ2jr9sBk6",
+    "__v": 0
+  }
+]

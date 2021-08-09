@@ -1,0 +1,12 @@
+
+## TO EXPORT
+--inside docker mongo cli
+mongoexport  -d mean -c users -o users.json --jsonArray
+
+--after, outside command line
+docker cp mean-auth-role-angular_mongo_1:/users.json .
+
+
+## TO IMPORT
+
+mongoimport --host mongo --db mean --collection users --type json --file /users.json --jsonArray
